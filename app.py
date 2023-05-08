@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from PIL import Image
 
 st.title('Uber pickups in NYC')
 
@@ -34,3 +35,7 @@ filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
 
 st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 st.map(filtered_data)
+
+# image = Image.open('sunrise.jpg')
+image = 'https://i.gifer.com/4j.gif'
+st.image(image, caption='Flash haha')
