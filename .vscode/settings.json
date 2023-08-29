@@ -1,7 +1,12 @@
 {
     "cSpell.words": [
         "haha",
+        "histplot",
+        "matplotlib",
         "nrows",
-        "streamlit"
+        "pyplot",
+        "seaborn",
+        "streamlit",
+        "xlabel"
     ]
 }
