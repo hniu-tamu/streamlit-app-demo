@@ -2,3 +2,5 @@ tensorflow
 shap
 matplotlib
 seaborn
+opencv
+numpy==1.24
