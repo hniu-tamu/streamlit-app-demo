@@ -2,4 +2,3 @@ tensorflow
 shap
 matplotlib
 seaborn
-numpy==1.24.0
