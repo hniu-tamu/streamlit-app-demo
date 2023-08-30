@@ -2,3 +2,4 @@ tensorflow
 shap
 matplotlib
 seaborn
+opencv-python
