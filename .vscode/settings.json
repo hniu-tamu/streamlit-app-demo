@@ -7,6 +7,7 @@
         "pyplot",
         "seaborn",
         "streamlit",
-        "xlabel"
+        "xlabel",
+        "ylabel"
     ]
 }

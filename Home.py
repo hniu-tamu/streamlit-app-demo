@@ -39,6 +39,8 @@ start_point = -101.9029
 end_point = -101.9014
 num_points = 96
 
+
+
 points = np.linspace(start_point, end_point, num_points)
 
 data['lon'] = points
@@ -61,5 +63,6 @@ data['color'] = data['irrigation'].apply(map_irrigation_color)
 st.map(data, size = 'size', color = 'color') # filtered_data
 
 # image = Image.open('sunrise.jpg')
-image = 'https://i.gifer.com/4j.gif'
-st.image(image, caption='Flash haha')
+# image = 'https://i.gifer.com/4j.gif'
+# st.image(image, caption='Flash haha')
+
